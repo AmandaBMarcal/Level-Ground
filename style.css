@@ -1,0 +1,318 @@
+/* Level Ground Css */
+
+* {
+  box-sizing: border-box;
+}
+
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+html {
+  font-family: sans-serif;
+}
+header {
+  width: 100%;
+  background-color: rgb(110 118 137);
+  float: left;
+}
+.leftHead {
+  color: white;
+  width: 33.3333%;
+  float: left;
+}
+.leftHead span{
+  margin: 15px;
+  float: left;
+}
+.midHeader {
+  width: 33.3333%;
+  padding-left: 15%;
+  float: left;
+}
+.midHeader img {
+  height: 100px;
+}
+.button {
+  margin-top: 18px;
+  padding-left: 27%;
+  float: left;
+}
+
+/* Section A */
+.secA {
+  width: 100%;
+  background-color: rgb(110 118 137);
+  float: left;
+}
+.secA h1 {
+  font-size: 47px;
+  margin: 78px 0% 46px 0%;
+  text-align: center;
+  color: white;
+}
+.secA p {
+  width: 60%;
+  margin: 0px 20% 40px 20%;
+  font-size: 17px;
+  color: white;
+  text-align: center;
+}
+.secA span {
+  margin:0px 0% 100px 45%;
+  padding-top: 30px;
+  color: white;
+  display: block;
+}
+
+/* Section B */
+.secB {
+  width: 100%;
+  float: left;
+}
+.secB h3 {
+  text-align: center;
+  margin: 100px 0% 40px 0%;
+}
+.secB p {
+  width: 60%;
+  margin: 0px 20% 100px 20%;
+  font-size: 17px;
+  text-align: center;
+}
+
+/* Boxes Section  */
+.boxes {
+  width: 100%;
+  background-color: rgb(219 223 226);
+  padding: 100px 0 100px 0;
+  float: left;
+}
+.leftBox {
+  width: 40%;
+  margin-left: 10%;
+  float: left;
+}
+.rightBox {
+  width: 40%;
+  margin-left: 2%;
+  float: left;
+}
+.boxes img {
+  width: 65%;
+  height: 200px;
+  margin-left: 17%;
+}
+.boxes h3 {
+  text-align: center;
+}
+.boxes p {
+  text-align: center;
+}
+.boxes span {
+  border: 1px solid black;
+  padding: 10px 5% 10px 5%;
+}
+.leftBox span {
+  margin-left: 35%;
+
+}
+.rightBox span {
+  margin-left: 39%;
+}
+
+/* Section C */
+.secC {
+  width: 100%;
+  float: left;
+}
+.secC h3 {
+  text-align: center;
+  margin: 100px 0% 40px 0%;
+}
+.secC p {
+  width: 60%;
+  margin: 0px 20% 87px 20%;
+  font-size: 17px;
+  text-align: center;
+}
+.secC span {
+  border: 1px solid black;
+  padding: 10px 3% 10px 3%;
+  margin-left: 43%;
+}
+
+/* Footer */
+footer{
+  background-color: rgb(20 31 42);
+  width: 100%;
+  margin-top: 100px;
+  float: left;
+}
+/* Left Footer */
+.leftFooter {
+  width: 10%;
+  margin-left: 2%;
+  float: left;
+}
+.leftFooter i {
+  color: white;
+  font-size: 25px;
+  padding-bottom: 7px;
+  width: 30%;
+}
+.blue {
+  width: 100%;
+  color: rgb(100 118 137);
+  padding-bottom: 7px;
+  float: left;
+}
+.white {
+  color: white;
+  padding: 0px 10% 7px 0%;
+  float: left;
+}
+/* Right Footer */
+.rightFooter {
+  color: white;
+  margin-left: 68%;
+  float: left;
+}
+.rightFooter p {
+  margin: 2%;
+}
+.bold {
+  font-weight: bold;
+}
+.bottomFooter {
+  color: white;
+  border-top: 1px solid white;
+  margin: 25px 30% 10px 30%;
+  float: left;
+}
+.leftFooter, .rightFooter {
+  margin-top: 20px;
+}
+
+/* Mobile */
+@media only screen and (max-width:768px) {
+  .leftHead {
+    display: none;
+  }
+  .midHeader {
+    padding-left: 43%;
+  }
+  .midHeader img {
+    height: 125px;
+  }
+  .button, .secA p, .secB {
+    display: none;
+  }
+  .secA span {
+    margin: 0px 0% 100px 39%;
+  }
+  .secA h1 {
+    font-size: 45px;
+  }
+
+  .leftBox {
+    width: 100%;
+  }
+  .boxes p {
+    display: none;
+  }
+  .leftBox {
+    margin: 0%;
+  }
+  .leftBox span {
+    margin-left: 35%;
+  }
+  .rightBox {
+    width: 100%;
+    margin: 0%;
+  }
+  .rightBox {
+    padding-top: 90px;
+  }
+  .rightBox span {
+    margin-left: 39%;
+  }
+  .secC {
+    display: none;
+  }
+  .footer {
+    margin: 0;
+  }
+  .leftFooter i {
+    float: left;
+  }
+  .leftFooter {
+    width: 38%;
+    margin-left: 30%;
+  }
+  .rightFooter {
+    display: none;
+  }
+  .bottomFooter {
+    margin: none;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+/* IPad */
+@media (min-width:769px) and (max-width:1024px) {
+  .button {
+    display: none;
+  }
+  .secA span i {
+    display: none;
+    margin: 0px 0% 100px 42%;
+  }
+  .secB {
+    display: none;
+  }
+  .boxes p {
+    display: none;
+  }
+  .leftBox span {
+    margin-left: 27%;
+  }
+  .rightBox span {
+    margin-left: 35%;
+  }
+  .midHeader {
+    padding-left: 13%;
+  }
+  .midHeader img {
+    height: 100px;
+  }
+  .boxes img {
+    width: 68%;
+    height: 115px;
+  }
+  .leftBox {
+    margin-left: 9%;
+  }
+  .leftFooter {
+    width: 20%;
+    margin: 50px 2% 2px 7%;
+  }
+  .rightFooter {
+    margin: 50px 2% 2px 39%;
+  }
+  .bottomFooter {
+    margin: 25px 30% 10px 26%;
+    text-align: center;
+  }
+}
