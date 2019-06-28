@@ -1,7 +1,7 @@
 # Level-Ground
 Responsive website created in HTML &amp; CSS
 
-![alt tag](LGSS.png)
+![alt tag](img/LGSS.png)
 
 ## How It's Made:
 HTML / CSS
